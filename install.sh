@@ -9,4 +9,4 @@ sudo papirus-folders -C bluegrey --theme Papirus-Dark
 git clone https://github.com/dracula/gtk.git 
 sudo mv gtk/ /usr/share/themes/
 sudo mv /usr/share/themes/gtk/kde/cursors/Dracula-cursors /usr/share/icons/
-sudo reboot -f
+sudo /sbin/reboot -f
