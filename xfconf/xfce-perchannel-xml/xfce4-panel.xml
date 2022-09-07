@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=683;y=14"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="24"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="36"/>
+        <value type="int" value="11"/>
+        <value type="int" value="29"/>
+        <value type="int" value="3"/>
+        <value type="int" value="14"/>
+        <value type="int" value="4"/>
+        <value type="int" value="35"/>
+        <value type="int" value="10"/>
+        <value type="int" value="39"/>
+        <value type="int" value="2"/>
+        <value type="int" value="37"/>
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="tux"/>
+    </property>
+    <property name="plugin-2" type="string" value="clock">
+      <property name="digital-format" type="string" value="%_H:%M"/>
+      <property name="tooltip-format" type="string" value="%x"/>
+    </property>
+    <property name="plugin-3" type="string" value="cpufreq"/>
+    <property name="plugin-4" type="string" value="cpugraph"/>
+    <property name="plugin-9" type="string" value="showdesktop"/>
+    <property name="plugin-10" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="ibus panel"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+      <property name="menu-is-primary" type="bool" value="true"/>
+    </property>
+    <property name="plugin-11" type="string" value="systemload"/>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-29" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-35" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-36" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-37" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-39" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="windowmenu">
+      <property name="style" type="uint" value="1"/>
+      <property name="workspace-names" type="bool" value="false"/>
+      <property name="urgentcy-notification" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
